@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35818.85 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{63E96F0D-7045-414D-8621-839828C3EB1C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECC.Web", "ECC.Web\ECC.Web\ECC.Web.csproj", "{E8CDECBB-D0F9-4D86-821E-A7B48FCE7E60}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECC.Web.Client", "ECC.Web\ECC.Web.Client\ECC.Web.Client.csproj", "{C1832A36-BC91-4559-A073-FF113A6EBB00}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECC.Web.Shared", "ECC.Web.Shared\ECC.Web.Shared.csproj", "{132A77A4-0C24-483B-B7F3-2590B63095E6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E8CDECBB-D0F9-4D86-821E-A7B48FCE7E60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8CDECBB-D0F9-4D86-821E-A7B48FCE7E60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8CDECBB-D0F9-4D86-821E-A7B48FCE7E60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8CDECBB-D0F9-4D86-821E-A7B48FCE7E60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1832A36-BC91-4559-A073-FF113A6EBB00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1832A36-BC91-4559-A073-FF113A6EBB00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1832A36-BC91-4559-A073-FF113A6EBB00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1832A36-BC91-4559-A073-FF113A6EBB00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{132A77A4-0C24-483B-B7F3-2590B63095E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{132A77A4-0C24-483B-B7F3-2590B63095E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{132A77A4-0C24-483B-B7F3-2590B63095E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{132A77A4-0C24-483B-B7F3-2590B63095E6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E8CDECBB-D0F9-4D86-821E-A7B48FCE7E60} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{C1832A36-BC91-4559-A073-FF113A6EBB00} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{132A77A4-0C24-483B-B7F3-2590B63095E6} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7CC2C823-D6EE-495A-85D9-FE80A56BF236}
+	EndGlobalSection
+EndGlobal
